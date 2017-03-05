@@ -17,6 +17,14 @@ public class Woman extends Human{
 		this.beauty = beauty;
 	}
 
+	@Override
+	public String toString() {
+		return "Woman [beauty=" + beauty + ", isBeauty()=" + isBeauty() + ", getName()=" + getName() + ", getAge()="
+				+ getAge() + ", getGold()=" + getGold() + ", getMoney()=" + getMoney() + ", isLove()=" + isLove()
+				+ ", getGender()=" + getGender() + ", toString()=" + super.toString() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + "]";
+	}
+
 	public void work(){
 		
 		System.out.println("I am a housekeeper");

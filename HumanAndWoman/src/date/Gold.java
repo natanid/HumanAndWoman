@@ -34,4 +34,10 @@ public class Gold {
 		this.goldType = goldType;
 	}
 
+	@Override
+	public String toString() {
+		return "Gold [price=" + price + "]";
+	}
+
+	
 }

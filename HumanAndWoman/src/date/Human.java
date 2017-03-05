@@ -1,6 +1,6 @@
 package date;
 
-public class Human {
+public abstract class Human {
 
 	private String name;
 	private int age;
@@ -62,6 +62,15 @@ public class Human {
 
 	public void setGender(Gender gender) {
 		this.gender = gender;
+	}
+
+	@Override
+	public String toString() {
+		return "Human [name=" + name + ", age=" + age + ", gold=" + gold + ", money=" + money + ", love=" + love
+				+ ", gender=" + gender + ", getName()=" + getName() + ", getAge()=" + getAge() + ", getGold()="
+				+ getGold() + ", getMoney()=" + getMoney() + ", isLove()=" + isLove() + ", getGender()=" + getGender()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
 	}
 
 	public void work() {

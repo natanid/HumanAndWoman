@@ -41,6 +41,15 @@ public class Man extends Human {
 		this.power = power;
 	}
 
+	@Override
+	public String toString() {
+		return "Man [power=" + power + ", gold=" + gold + ", love=" + love + ", name=" + name + ", job=" + job
+				+ ", getJob()=" + getJob() + ", getGold()=" + getGold() + ", getPower()=" + getPower() + ", getName()="
+				+ getName() + ", getAge()=" + getAge() + ", getMoney()=" + getMoney() + ", isLove()=" + isLove()
+				+ ", getGender()=" + getGender() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
+
 	public void fixing() {
 
 		System.out.println("I've fixed an item");
